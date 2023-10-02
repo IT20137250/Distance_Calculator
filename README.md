@@ -34,35 +34,35 @@ are depicted as vibrant red markers on the map, further assisting parents in exp
     longitude.</br>
   • A "Calculate" button is provided to compute the distance between the addresses.</br>
 
-Google Maps Integration:
+<b>Google Maps Integration:</b></br>
   • The 'initMap' function initializes a Google Map, sets its center and zoom level, and creates 
-    the map object.
-  • Markers are added to the map for various school locations, with different icons.
-  • The 'addMarker' function adds markers to the map.
+    the map object.</br>
+  • Markers are added to the map for various school locations, with different icons.</br>
+  • The 'addMarker' function adds markers to the map.</br>
   • A blue marker represents the school address, and a green marker represents the user's home 
-    address.
+    address.</br>
 
-Geocoding:
+<b>Geocoding:</b></br>
   • Geocoding is used to convert user-entered addresses into latitude and longitude 
-    coordinates.
+    coordinates.</br>
   • The 'geocodeHomeAddress' and 'geocodeSchoolAddress' functions perform geocoding for 
-    home and school addresses, respectively
-  • Using the Google Maps Geocoder service to perform the geocoding.
+    home and school addresses, respectively.</br>
+  • Using the Google Maps Geocoder service to perform the geocoding.</br>
 
-Distance Calculation:
+<b>Distance Calculation:</b></br>
   • The 'useCoordinatesClcDis' function calculates the distance between the home and school 
-    using the Haversine formula based on the latitude and longitude coordinates.
-  • The calculated distance is displayed in kilometers and updated in an input field.
+    using the Haversine formula based on the latitude and longitude coordinates.</br>
+  • The calculated distance is displayed in kilometers and updated in an input field.</br>
   • Creating a haversine_formula function to calculate the straight-line distance between two 
-    sets of latitude and longitude coordinates using the Haversine formula.
+    sets of latitude and longitude coordinates using the Haversine formula.</br>
 
-Marker Removal and Line Drawing:
-  • The 'deleteMarkers' function removes all markers from the map.
+<b>Marker Removal and Line Drawing:</b></br>
+  • The 'deleteMarkers' function removes all markers from the map.</br>
   • The 'drawLine' function draws a line between the user's home address and the school 
-    address on the map.
+    address on the map.</br>
 
-Table Generation:
+<b>Table Generation:</b></br>
   • A table is dynamically generated to display the distances between the user's home address 
-    and various school addresses.
-  • The table includes columns for school names and distances.
+    and various school addresses.</br>
+  • The table includes columns for school names and distances.</br>
 
