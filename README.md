@@ -22,11 +22,11 @@ locations with ease. In addition to the immediate distance calculation, the appl
 extra mile by providing a comprehensive list of nearby schools around Colombo. These schools 
 are depicted as vibrant red markers on the map, further assisting parents in exploring their options.
 
-HTML Structure:
-  • Creating the basic home interface.
+<b>HTML Structure:</b>
+  • Creating the basic home interface.</br>
   • Including external libraries such as Bootstrap and Font Awesome for styling and 
-    functionality.
-  • Adding a script tag to initialize the Google Maps API with an API key.
+    functionality.</br>
+  • Adding a script tag to initialize the Google Maps API with an API key.</br>
 
 Form Inputs:
   • Creating form fields for user input, including text input fields for the home address and 
