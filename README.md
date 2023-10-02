@@ -22,17 +22,17 @@ locations with ease. In addition to the immediate distance calculation, the appl
 extra mile by providing a comprehensive list of nearby schools around Colombo. These schools 
 are depicted as vibrant red markers on the map, further assisting parents in exploring their options.
 
-<b>HTML Structure:</b>
+<b>HTML Structure:</b></br>
   • Creating the basic home interface.</br>
   • Including external libraries such as Bootstrap and Font Awesome for styling and 
     functionality.</br>
   • Adding a script tag to initialize the Google Maps API with an API key.</br>
 
-Form Inputs:
+<b>Form Inputs:</b></br>
   • Creating form fields for user input, including text input fields for the home address and 
     school address, a button to search for addresses, and input fields to display latitude and 
-    longitude.
-  • A "Calculate" button is provided to compute the distance between the addresses.
+    longitude.</br>
+  • A "Calculate" button is provided to compute the distance between the addresses.</br>
 
 Google Maps Integration:
   • The 'initMap' function initializes a Google Map, sets its center and zoom level, and creates 
